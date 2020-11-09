@@ -958,6 +958,12 @@ header .right_bt .btn {
 	height: 80px;
 }
 
+.logo p {
+	font-size: 64px;
+	font-weight: bolder;
+	padding-top: 20px;
+}
+
 .header_style_1 .header_top {
 	position: relative;
 }
