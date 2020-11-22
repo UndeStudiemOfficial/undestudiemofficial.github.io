@@ -1,6 +1,16 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-X8Z7BD64BR"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+  
+      gtag('config', 'G-X8Z7BD64BR');
+      </script>
+      
     <meta charset="utf-8">
     <title>UndeStudiem</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -46,7 +56,7 @@
             <nav class="main-nav float-right d-none d-lg-block">
                 <ul>
                     <!-- <li class="active"><a href="#about">About</a></li> -->
-                    <li><a href="#why-us">About Us</a></li>
+                    <li><a href="#why-us">About</a></li>
                     <li><a href="#services">Why choose us?</a></li>
                     <li><a href="#footer">Contact</a></li>
 
@@ -82,7 +92,9 @@
             <div class="row justify-content-center ">
                 <div class="col-md-12 intro-info order-md-first order-last">
                     <br/><br/><br/>
-                    <h2>The informed choice is the one <br/><span>determining our destiny</span></h2>
+                    <h2>The informed choice is the one <br/><span>determining our destiny</span><br/>
+                      Click below to make sure of it!
+                    </h2>
                     <div>
                         <a href="#timeline" class="btn-get-started scrollto">Visit our website</a>
                     </div>
@@ -110,7 +122,7 @@
         <div class="container-fluid">
           
           <header class="section-header">
-            <h3>About us</h3>
+            <h3>About</h3>
             <!-- <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p> -->
           </header>
 
@@ -246,9 +258,6 @@
                   <div class="footer-newsletter">
                     <h4>Our Newsletter</h4>
                     <p>Subscribe to our newsletter</p>
-                    <form action="" method="post">
-                      <input type="email" name="email"><input type="submit"  value="Subscribe">
-                    </form>
                   </div>
 
                 </div>
@@ -283,7 +292,11 @@
             <div class="form">
               
               <h4>Send us a message</h4>
-              <form action="" method="post" role="form" class="contactForm">
+              <form 
+              action="https://formspree.io/f/mnqobaaq"
+              method="POST"
+              class="contactForm"
+              >
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validation"></div>
